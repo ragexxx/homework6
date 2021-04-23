@@ -1,0 +1,102 @@
+:root {
+    --head: rgb(84, 151, 206);
+    --fontHead: white;
+}
+
+.head1 {
+    padding: 3% 4%;
+    background-color: var(--head);
+    color: var(--fontHead);
+    text-align: center;
+  }
+
+  .box {
+    margin: 0 0 20px 0;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+  }
+
+  .box-body {
+    padding: 2.5%;
+  }
+
+  .box-header {
+    color: gray;
+    padding: 2.5%;
+    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+
+  .btn {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: 0.3rem;
+    color: black;
+    border: none;
+    outline: none;
+    background-color: cyan;
+    box-shadow: 3px 3px black;
+    transform: translate(-1px, -1px);
+  }
+  
+  .btn:hover {
+    color: blue;
+    background-color: cyan;
+    transform: translate(0, 0);
+    box-shadow: 2px 2px gray;
+  }
+  
+  .btn-inline {
+    display: inline;
+  }
+  
+  .btn-back {
+    border-radius: 0.3rem;
+    color: cadetblue;
+    border: none;
+    outline: none;
+    background-color: cadetblue;
+    box-shadow: 3px 3px blueviolet;
+    transform: translate(-1px, -1px);
+    display: inline-block;
+    width: auto;
+    margin-top: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .btn-back:hover {
+    color: cyan;
+    background-color: gray;
+    transform: translate(0, 0);
+    box-shadow: 2px 2px gray;
+  }
+
+  .col-12 {
+    flex: 0 0 100%;
+  }
+
+  .min-100-vh {
+    min-height: 100vh;
+  }
+  
+  .min-100-vw {
+    min-width: 100vw;
+  }
+
+  @media screen and (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 calc(100% * 4 / 12 - 2%);
+    }
+  }
+  .form-input {
+    display: block;
+  }
